@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= post.username %></title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <div class="nav">
+        <h1>Here is your details  </h1>
+        <a href="http://localhost:3000/posts/  "> Go to all Post Page</a>
+    </div>
+    
+       
+       <div class="post">
+          <h5>Post id : <%= post.id %></h5>
+          <h3> @<%= post.username %></h3>
+          <h4><%= post.content %></h4>
+           <div>
+             <a href=""> Edit Post</a>
+             <a href="#">Delete Post</a>
+           </div>
+       </div>
+   
+
+    
+</body>
+</html>
